@@ -1,9 +1,11 @@
 ---
 layout: post
 title: My First Post
-date: 2024-05-19 00:21 -0500
-tags: [misc]
+tags:
+- misc
+categories:
+- Main1
+- sub1
 ---
-
 Hello. This is My first post. 
 This post is written using markdown.
