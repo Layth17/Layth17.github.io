@@ -1,20 +1,18 @@
 <!-- The Side Bar -->
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <header class="profile-wrapper">
+  <header class="profile-wrapper text-center">
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle" style="display: block; margin: 0 auto;">
       {%- if site.avatar != empty and site.avatar -%}
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
         {%- endcapture -%}
-        <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+        <img src="{{- avatar_url -}}" width="170" height="170" alt="avatar" onerror="this.style.display='none'">
       {%- endif -%}
     </a>
 
     <h1 class="site-title">
-      <div style="text-align: center;">
         <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      </div>
     </h1>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
