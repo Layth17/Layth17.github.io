@@ -30,13 +30,13 @@ categories:
 
 ## Parsing
 - Constitency (<https://parser.kitaev.io/>)
-  - <http://nlpprogress.com/english/constituency_parsing.html>
+  - <https://nlpprogress.com/english/constituency_parsing.html>
   - Starts right to left. Forms a tree.
 - Dependency (<https://demos.explosion.ai/displacy>)
   - Which words depend on which other words.
   - Identify the "head" or "root" then go from there
   - **projectivity**: A dependency tree is projective if it can be drawn with no crossing edges.
-- MaltParser (<http://www.maltparser.org/>)
+- MaltParser (<https://www.maltparser.org/>)
 
 ## N-gram
 - ...
