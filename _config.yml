@@ -13,13 +13,14 @@ timezone: # America/Chicago
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
+# the main title
+title: Layth 
 
-title: Layth # the main title
-
-tagline: Hesitation is defeat. # it will display as the sub-title
+ # it will display as the sub-title
+tagline: "<div>Oh! Pardon me. I was absorbed in thought.</div><div style='padding-bottom: 10px;'></div><div>My name is Layth. I am a student in the school of life.</div><div style='padding-bottom: 10px;'></div><div>I have a B.S. in computer science and currently work as a developer @ Bayer.</div><div style='padding-bottom: 10px;'></div><div>My academic experience also includes mathamatics, bioinformatics, machine learning, biology, and philosophy.</div><div style='padding-bottom: 10px;'></div><div>I intend to share blogs related to those subjects.</div>"
 
 description: >- # used by seo meta and the atom feed
-  A place for Layth's thoughts.
+  Hesitation is defeat.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -88,7 +89,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark # [light | dark]
+theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -192,6 +193,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
   - scope:
       path: assets/js/dist
     values:
