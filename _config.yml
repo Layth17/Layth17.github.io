@@ -17,7 +17,13 @@ timezone: # America/Chicago
 title: Layth 
 
  # it will display as the sub-title
-tagline: "<div><em>Hmmm... Mmmmm...</em></div><div style='padding-bottom: 10px;'></div><div><em>Oh! Pardon me. I was absorbed in thought.</em></div><div style='padding-bottom: 10px;'></div><div>My name is Layth. I am a student in the school of life.</div><div style='padding-bottom: 10px;'></div><div>I have a B.S. in computer science and currently work as a developer @ Bayer.</div><div style='padding-bottom: 10px;'></div><div>My academic experience includes mathematics, bioinformatics, ML, biology, and philosophy.</div><div style='padding-bottom: 10px;'></div><div>I intend to share blogs related to those subjects.</div>"
+tagline: "
+<strong>B.S.</strong> in Computer Science <br>
+<div style='padding-bottom: 30px;'></div>
+<em>Hmmm... Mmmmm...</em><div style='padding-bottom: 10px;'>
+</div><div><em>Oh! Pardon me. I was absorbed in thought.</em></div>
+<div style='padding-bottom: 10px;'></div><div>Welcome to the blog of a student in the school of life.</div>
+<div style='padding-bottom: 10px;'></div><div>I intend to write about my academic and professional interests, which encompass mathematics, bioinformatics, machine learning, biology, and philosophy.</div>"
 
 description: >- # used by seo meta and the atom feed
   Hesitation is defeat.
