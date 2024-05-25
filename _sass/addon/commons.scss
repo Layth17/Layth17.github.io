@@ -313,25 +313,35 @@ sup {
 
 /* --- post --- */
 
+.rounded-preview-img {
+  border-radius: 33rem;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
 .preview-img {
-  aspect-ratio: 40 / 21;
+  
   width: 100%;
   height: 100%;
   overflow: hidden;
 
+  /* 
+  object-fit: contain  ;
   @extend %rounded;
-
   &:not(.no-bg) {
     background: var(--img-bg);
+    border-radius: 3rem;
   }
+  */
 
   img {
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-
-    @extend %rounded;
-
+    -o-object-fit: fit;
+    object-fit: fit  ;
+    overflow: hidden;
+    /*  @extend %rounded; */
+    
     @at-root #post-list & {
       width: 100%;
     }
@@ -339,15 +349,16 @@ sup {
 }
 
 .post-preview {
-  @extend %rounded;
+  /* @extend %rounded; */
 
   border: 0;
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
+  border-radius: 3rem;
 
   &::before {
     @extend %rounded;
-
+    border-radius: 3rem;
     content: '';
     width: 100%;
     height: 100%;
@@ -360,6 +371,7 @@ sup {
   &:hover {
     &::before {
       opacity: 0.3;
+      border-radius: 3rem;
     }
   }
 }
