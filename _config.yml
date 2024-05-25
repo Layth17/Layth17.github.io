@@ -18,12 +18,19 @@ title: Layth
 
  # it will display as the sub-title
 tagline: "
-<strong>B.S.</strong> in Computer Science <br>
+B.S., Computer Science
+<div style='text-align: center; font-family: cursive;'>
 <div style='padding-bottom: 30px;'></div>
-<em>Hmmm... Mmmmm...</em><div style='padding-bottom: 10px;'>
-</div><div><em>Oh! Pardon me. I was absorbed in thought.</em></div>
-<div style='padding-bottom: 10px;'></div><div>Welcome to the blog of a student in the school of life.</div>
-<div style='padding-bottom: 10px;'></div><div>I intend to write about my academic and professional interests, which encompass mathematics, bioinformatics, machine learning, biology, and philosophy.</div>"
+<p><em>Hmmm... Mmmmm...</em></p>
+<div style='padding-bottom: 2px;'></div>
+<p><em>Oh! Pardon me. I was absorbed in thought 💭</em></p>
+<div style='padding-bottom: 2px;'></div>
+<p>Welcome to the blog of a student in the school of life ⏳</p>
+<div style='padding-bottom: 2px;'></div>
+<p>I intend to write about my academic and professional interests, 
+which encompass mathematics, bioinformatics, machine learning, 
+biology, and philosophy.</p>
+</div>"
 
 description: >- # used by seo meta and the atom feed
   Hesitation is defeat.

@@ -703,8 +703,8 @@ $btn-mb: 0.5rem;
 
   #avatar {
     display: block;
-    width: 10rem;
-    height: 10rem;
+    width: 7rem;
+    height: 7rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
@@ -747,7 +747,7 @@ $btn-mb: 0.5rem;
   .site-subtitle {
     font-size: 95%;
     color: var(--site-subtitle-color);
-    margin-top: .001rem;
+    margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -757,12 +757,12 @@ $btn-mb: 0.5rem;
 
   ul {
     margin-bottom: 2rem;
-
+    
     li.nav-item {
       opacity: 0.9;
       width: 100%;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
 
       a.nav-link {
         @include pt-pb(0.6rem);
@@ -784,7 +784,11 @@ $btn-mb: 0.5rem;
 
         span {
           font-size: 90%;
-          letter-spacing: 0.2px;
+          letter-spacing: 2px;
+          overflow: hidden  ;
+          display: block;  // Changed from flex to block
+          width: 100%;  // Ensure the span takes full width
+          text-align: center;  // Center the text within the span
         }
       }
 

@@ -8,3 +8,17 @@
 ';
 
 /* append your custom style below */
+#sidebar {
+  .site-title {
+    text-align: center;
+  }
+  .site-subtitle {
+    margin-top: .5rem;
+    word-spacing: 1px;
+    text-align: center;
+  }
+  #avatar{
+    width: 10rem;
+    height: 10rem;
+  }
+}
