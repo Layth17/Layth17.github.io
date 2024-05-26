@@ -39,7 +39,9 @@ categories:
 - MaltParser (<https://www.maltparser.org/>)
 
 ## N-gram
-- ...
+- `Unigram` -- essentially, random words. Their tag only depends on the word.
+- `Bi-gram` -- the markov model. Their tag depends on the previous word.
+- `N-gram` -- you get the idea ... N=k for some value of k>1
 
 ## Naiive Bayes
 - ...
