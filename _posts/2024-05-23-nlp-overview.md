@@ -15,7 +15,7 @@ categories:
 - Morphological Parsing
   - Porter stemmer Algo (<https://tartarus.org/martin/PorterStemmer/>)
 - Named Entity Recognition (NER)
-- **percision**: fraction of retrieved documents that are relevant
+- **precision**: fraction of retrieved documents that are relevant
 - **recall**: fraction of relevant documents that are retrieved
 - IO vs IOB (inside-outside-beginning) tagging
 

@@ -249,7 +249,7 @@ Epoch [150/150], Loss: 0.0128
 Training is complete!
 ```
 
-## Viewing the matricies
+## Viewing the matrices
 
 ```python
 print(model.embedding.weight)
