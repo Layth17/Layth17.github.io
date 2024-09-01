@@ -51,21 +51,10 @@ jobs:
         env:
           JEKYLL_ENV: "production"
           
-      - name: testing
+      - name: Debug - List _site contents
         run: |
-           echo "pwd"
-           pwd
-           echo "ls ../"
-           ls ../
-           echo "ls"
-           ls
-           echo "ls _site/assets/"
-           ls _site/assets/
-           echo "ls _site/assets/js/"
-           ls _site/assets/js/
-           echo "_site/assets/js/dist/"
-           ls _site/assets/js/dist/
-           echo "what is this; ${{ steps.pages.outputs.base_path }}"
+          echo "Contents of _site directory:"
+          ls -R _site
 
       - name: Test site
         run: |
