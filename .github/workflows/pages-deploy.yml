@@ -62,8 +62,10 @@ jobs:
            ls
            echo "ls _site/assets/"
            ls _site/assets/
-           echo "ls assets/js/"
+           echo "ls _site/assets/js/"
            ls _site/assets/js/
+           echo "_site/assets/js/dist/"
+           ls _site/assets/js/dist/
            echo "what is this; ${{ steps.pages.outputs.base_path }}"
 
       - name: Test site
