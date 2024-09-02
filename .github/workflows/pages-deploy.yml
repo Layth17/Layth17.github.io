@@ -49,8 +49,8 @@ jobs:
         run: |
           bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
-          # JEKYLL_ENV: "production"
-          JEKYLL_ENV: "development"
+          JEKYLL_ENV: "production"
+          # JEKYLL_ENV: "development"
 
       - name: Debug - List _site contents
         run: |
