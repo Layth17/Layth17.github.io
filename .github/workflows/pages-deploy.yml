@@ -54,6 +54,7 @@ jobs:
 
       - name: Debug - List _site contents
         run: |
+          jekyll -v 
           echo "Contents of _site directory:"
           ls -R _site
 
