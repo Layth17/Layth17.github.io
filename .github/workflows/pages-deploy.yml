@@ -47,10 +47,12 @@ jobs:
 
       - name: Build site
         run: |
-          bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+          # bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+          bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}" --verbose
         env:
-          JEKYLL_ENV: "production"
-          
+          # JEKYLL_ENV: "production"
+          JEKYLL_ENV: "development"
+
       - name: Debug - List _site contents
         run: |
           echo "Contents of _site directory:"
