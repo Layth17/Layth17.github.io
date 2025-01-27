@@ -1,14 +1,14 @@
 ---
 layout: post
-title: useful aws cli commands
+title: Useful AWS CLI Commands
 description: commands I have found to be useful
-date: 2025-01-27 14:05 -0500
 categories:
 - Tech
 - Cloud
 tags:
 - cloud
 - aws
+date: 2025-01-27 00:58 -0500
 ---
 
 ## SSM
