@@ -39,7 +39,7 @@ description: >- # used by seo meta and the atom feed
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://layth17.github.io"
 
-image: "/assets/profile_image.jpg"
+image: "assets/profile_image.jpg"
 
 github:
   username: layth17 # change to your github username
