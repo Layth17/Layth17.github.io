@@ -1,3 +1,10 @@
+# My notes
+## local testing
+```sh
+bundle install
+bash tools/run.sh --host localhost
+```
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
