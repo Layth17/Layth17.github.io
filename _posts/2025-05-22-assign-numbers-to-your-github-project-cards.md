@@ -42,7 +42,7 @@ import os
 
 GITHUB_TOKEN = "ghp_XXXXXXXXXX"
 PROJECT_ID = "PVT_XXXXXXXXXX"
-FIELD_ID = "PVTF_XXXXXXXXXX
+FIELD_ID = "PVTF_XXXXXXXXXX"
 
 def run_graphql(query):
     """Execute a GraphQL query against GitHub API"""
