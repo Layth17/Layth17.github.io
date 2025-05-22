@@ -33,6 +33,7 @@ To reiterate, this is most relevant to projects with multiple repos.
 
 ## Python script
 
+{% raw %}
 ```python
 #!/usr/bin/env python3
 
@@ -44,18 +45,22 @@ GITHUB_TOKEN = "ghp_XXXXXXXXXX"
 PROJECT_ID = "PVT_XXXXXXXXXX"
 FIELD_ID = "PVTF_XXXXXXXXXX"
 
-def run_graphql(query):
+def run_graphql(query, variables=None):
     """Execute a GraphQL query against GitHub API"""
 
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Content-Type": "application/json",
     }
+
+    payload = {"query": query}
+    if variables:
+        payload["variables"] = variables
     
     response = requests.post(
         "https://api.github.com/graphql",
         headers=headers,
-        json={"query": query}
+        json=payload
     )
         
     response.raise_for_status()
@@ -184,6 +189,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+{% endraw %}
 
 ## Final remarks
 
