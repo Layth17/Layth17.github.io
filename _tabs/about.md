@@ -20,7 +20,7 @@ Welcome to the blog of a student in the school of life ⏳
 
 </div>
 
-<div style="background: #1b1a1f; padding: 15px; border-radius: 5px; margin: 20px 0; text-align: center;">
+<div style="padding: 15px; border-radius: 5px; margin: 20px 0; text-align: center;">
 In this space, I'll share insights from my academic pursuits, research breakthroughs, philosophical musings, and the occasional code snippet that might just change how you see a problem.
 </div>
 
