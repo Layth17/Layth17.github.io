@@ -12,15 +12,15 @@ Welcome to the blog of a student in the school of life ⏳
 </div>
 
 <div class="interests-container" style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
-  <span style="background: #f0f7ff; padding: 5px 12px; border-radius: 15px;">♾️ Mathematics</span>
-  <span style="background: #f5fff0; padding: 5px 12px; border-radius: 15px;">🌱 Bioinformatics</span>
-  <span style="background: #fff0f7; padding: 5px 12px; border-radius: 15px;">🤖 Machine Learning</span>
-  <span style="background: #fff8f0; padding: 5px 12px; border-radius: 15px;">🔍 Philosophy</span>
-  <span style="background:rgb(63, 162, 243); padding: 5px 12px; border-radius: 15px;">☁️ Cloud</span>
+  <span style="background: #1d1f21; padding: 5px 12px; border-radius: 15px;">♾️ Mathematics</span>
+  <span style="background: #1f3d00; padding: 5px 12px; border-radius: 15px;">🌱 Bioinformatics</span>
+  <span style="background: #3d001d; padding: 5px 12px; border-radius: 15px;">🤖 Machine Learning</span>
+  <span style="background: #3d2001; padding: 5px 12px; border-radius: 15px;">🔍 Philosophy</span>
+  <span style="background: #0b5ea2; padding: 5px 12px; border-radius: 15px;">☁️ Cloud</span>
 
 </div>
 
-<div style="background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 20px 0; text-align: center;">
+<div style="background: #1a1e1e; padding: 15px; border-radius: 5px; margin: 20px 0; text-align: center;">
 In this space, I'll share insights from my academic pursuits, research breakthroughs, philosophical musings, and the occasional code snippet that might just change how you see a problem.
 </div>
 
