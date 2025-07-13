@@ -38,6 +38,15 @@ In this space, I'll share insights from my academic pursuits, research breakthro
   </div>
 </div>
 
+## Certifications
+
+<div class="certifications-container" style="font-size: 0.9em; line-height: 1.4;">
+  <div class="cert-item" style="margin-bottom: 10px;">
+    <h3 style="margin-bottom: 2px; font-size: 1.1em;">Hack The Box Certified Bug Bounty Hunter (HTB CBBH)</h3>
+    <p style="margin: 0;">Domain: bug bounty hunting and web penetration testing -- intermediate level</p>
+  </div>
+</div>
+
 <hr style="margin: 30px 0;">
 
 <div style="font-size: 0.9em; color: #555; text-align: center; max-width: 600px; margin: 0 auto;">
