@@ -28,3 +28,17 @@ aws ssm start-session --target i-######## \
 --document-name AWS-StartPortForwardingSessionToRemoteHost \
 --parameters host="name.cluster-randomchars.region.rds.amazonaws.com",portNumber="3306",localPortNumber="9000"
 ```
+
+- Want to know how many free IPs per subnet you got in a AWS VPC?
+
+```bash
+aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxxxxx" \
+  --query "Subnets[*].[SubnetId,CidrBlock,AvailableIpAddressCount]" \
+  --output table
+```
+
+- Want to find the stack of a particular VPC?
+
+```bash
+aws cloudformation describe-stack-resources --physical-resource-id vpc-12345678 --query 'StackResources[0].StackName' --output text
+```
