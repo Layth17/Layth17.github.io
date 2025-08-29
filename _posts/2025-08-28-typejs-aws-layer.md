@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixed Window Neural Language
+title: TypeJS AWS Layer
 date: 2024-08-28 15:02 -0500
 categories:
 - Tech
