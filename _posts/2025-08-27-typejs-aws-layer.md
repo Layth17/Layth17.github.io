@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TypeJS AWS Layer
-date: 2024-08-28 15:02 -0500
+date: 2024-08-27 15:02 -0500
 categories:
 - Tech
 - AWS
