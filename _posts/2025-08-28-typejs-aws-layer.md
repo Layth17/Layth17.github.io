@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixed Window Neural Language
-date: 2024-08-29 15:02 -0500
+date: 2024-08-28 15:02 -0500
 categories:
 - Tech
 - AWS
